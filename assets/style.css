@@ -1,0 +1,56 @@
+body{
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+form fieldset{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: #333;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form input[type="url"],
+form section,
+form textarea {
+    width: calc(100% - 20%);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form input[type="radio"],
+form input[type="checkbox"],
+form button {
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form button:hover{
+    background-color: aqua;
+}
